@@ -47,6 +47,8 @@ Here's an example of `/metadata/01/01.json`:
    "thumbnail": "//cdn.example.com/thumbnails/.01/001.jpg" //If you have a webp version of the thumbnail, change .jpg to .webp and it will automatically be converted back to jpg if the browser doesn't support webp
 }
 ```
+If the episode is the last one of a season, then you'll also want to include `"islastep": true` in your json file
+
 Here's an example of `/metadata/00.json`:
 ```js
 [
