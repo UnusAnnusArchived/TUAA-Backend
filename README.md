@@ -29,7 +29,7 @@ To setup, you'll first need to create your own cdn that the website will take vi
 │   │   └── 002.webp # Season 1 - Episode 2 Thumbnail
 ```
 
-You'll also need to setup a server with nodejs installed, download the source code to it, run `npm install` in the source code folder, change `const baseurl = 'https://cdn.example.com'` to include the correct cdn domain in `/src/getvideodata.js`, then run `node .` (or `sudo node .` if port 80 is for superuser only) and you'll have a working server.
+You'll also need to setup a server with nodejs installed, download the source code to it, run `npm install` in the source code folder, change `const baseurl = 'https://cdn.example.com'` to include the correct cdn domain in `/src/getvideodata.js`, then run `node .` (or `sudo node .` if port 80 is for superuser only) and you'll have a working server. You should also change the email address in `/static/index.html` to your own, or remove that `p` tag completely.
 
 ### Example CDN Files
 Here's an example of `/metadata/01/01.json`:
