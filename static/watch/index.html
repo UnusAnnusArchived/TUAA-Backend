@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head> 
+    <title id="pagetitle"></title>
+    <link rel="icon" href="/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <a href="/" id="back">Go Home</a>
+    
+    <noscript><h1 style="color:#ff0000;">PLEASE ENABLE JAVASCRIPT FOR THIS SITE TO WORK!</h1></noscript>
+
+    <video id="player" src="" poster="" controls autoplay></video><br />
+
+    <div id="previousnext">
+      <div id="next"><a href="#" onclick="next()">Next</a></div>
+      <div id="previous"><a href="#" onclick="previous()">Previous</a></div>
+    </div>
+
+    <div id="info">
+
+      <h1 id="title">Fetching Metadata...</h1>
+      <p><span id="season"></span> - <span id="episode"></span></p>
+      <br />
+      <p id="release"></p>
+      <br />
+      <p id="description"></p>
+    </div>
+    <script src="js/main.js"></script>
+    <script src="https://s1nmw1bqqbhn.statuspage.io/embed/script.js"></script>
+  </body>
+</html>

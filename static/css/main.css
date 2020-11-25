@@ -1,0 +1,50 @@
+body {
+  overflow-x: hidden;
+  margin: 50px 0 50px 0;
+  background-color: #1c1c1e;
+  color: #ffffff;
+  text-align: center;
+  font-family: arial;
+}
+
+#thumbnail {
+  border-radius: 10px;
+  width: 250px;
+}
+
+#url {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#vidcontainer {
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+  width: 1000px;
+  margin: 0 0 0 0;
+}
+
+#video {
+  display: block
+}
+
+#title {
+  margin: 5px 0 0 0;
+}
+
+.se {
+  margin: 0 0 15px 0;
+  font-size: 13px;
+}
+
+#err {
+  display: none
+}
+
+.contact {
+  font-style: italic;
+}
+
+.contact a {
+  color: #ffffff;
+}
