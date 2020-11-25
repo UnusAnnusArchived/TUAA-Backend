@@ -7,9 +7,16 @@ fs.appendFileSync('log.txt', '--------------------------------------------------
 
 app.all('*', (req, res, next) => {
   res.setHeader('x-powered-by', 'The Unus Annus Archive')
-  const msg = `${new Date().toTimeString()}\nPath: ${req.originalUrl}\nIP: ${req.get('X-Forwarded-For').split(', ')[0]}\nUA: ${req.get('user-agent')}\n\n`
-  console.log(msg)
-  fs.appendFileSync('log.txt', msg)
+  try {
+    const msg = `${new Date().toTimeString()}\nPath: ${req.originalUrl}\nIP: ${req.ip}\nUA: ${req.get('user-agent')}\n\n`
+    //If you're running through a proxy and would like logs with actual IPs, set the line above to:
+    //const msg = `${new Date().toTimeString()}\nPath: ${req.originalUrl}\nIP: ${req.get('X-Forwarded-For').split(', ')[0]}\nUA: ${req.get('user-agent')}\n\n`
+    console.log(msg)
+    fs.appendFileSync('log.txt', msg)
+  } catch {
+    console.log('An error occurred trying to log.\n\n')
+    fs.appendFileSync('log.txt', 'An error occurred trying to log.\n\n')
+  }
   next()
 })
 

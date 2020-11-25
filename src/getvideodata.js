@@ -1,6 +1,6 @@
 const fetch = require('node-fetch')
 
-const baseurl = 'https://cdn.example.com'
+const baseurl = 'https://cdn.example.tk'
 
 exports.episode = (str, callback) => {
   const strsplit = str.toLowerCase().split('.')
@@ -14,7 +14,7 @@ exports.episode = (str, callback) => {
       callback(JSON.parse(metadata))
     } catch {
       callback({
-        video: `${baseurl.replace('https://', '//')}/${season}/${episode}.mkv`,
+        video: `${baseurl.replace('https://', '//')}/${season}/${episode}.mp4`,
         season: season,
         episode: episode,
         title: `Episode ${episode}`,
