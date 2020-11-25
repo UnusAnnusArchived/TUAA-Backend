@@ -80,4 +80,4 @@ Here's an example of `/metadata/all.json`:
 ```
 
 
-### Sorry if this documentation isn't very good, I wrote it up in just a couple minutes
+### Sorry if this documentation isn't very good, I wrote it up in just a couple minutes. Please make an issue if you don't understand or need help with something.
