@@ -1,6 +1,8 @@
 # The Unus Annus Archive Source Code
 The source code of the now taken down Unus Annus Archive
 
+(This entire project is really hacked together since I didn't expect it to get this complex, so sorry about that)
+
 To setup, you'll first need to create your own cdn that the website will take videos from. The file structure of that cdn must look like the following:
 
 ```bash
