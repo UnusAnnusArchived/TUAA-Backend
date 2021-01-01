@@ -31,6 +31,8 @@ To setup, you'll first need to create your own cdn that the website will take vi
 │   │   └── 002.webp # Season 1 - Episode 2 Thumbnail
 ```
 
+*You can also use [our cdn](https://cdn.unusannusarchive.tk) to see the entire structure*
+
 You'll also need to setup a server with nodejs installed, download the source code to it, run `npm install` in the source code folder, change `const baseurl = 'https://cdn.example.com'` to include the correct cdn domain in `/src/getvideodata.js`, then run `node .` and you'll have a working server. You should also change the email address in `/static/index.html` to your own, or remove that `p` tag completely.
 
 If you want the server to run on port 80 instead of port 1024, go to the bottom of `/src/main.js` and change `app.listen(1024)` to `app.listen(80)`
