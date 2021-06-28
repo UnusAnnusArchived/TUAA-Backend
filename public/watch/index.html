@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head> 
+    <title id="pagetitle"></title>
+    <link rel="icon" href="//cdn.unusannusarchive.tk/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=0.8" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/comments.css" />
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.6.3/plyr.css" />
+    <meta charset="utf-8">
+
+    <!-- Title -->
+    <meta itemprop="name" content="">
+    <meta name="twitter:title" content="">
+    <meta name="og:title" content="">
+
+    <!-- Description -->
+    <meta name="description" content="">
+    <meta itemprop="description" content="">
+    <meta name="twitter:description" content="">
+    <meta name="og:description" content="">
+
+    <!-- Poster -->
+    <meta name="image" content="">
+    <meta itemprop="image" content="">
+    <meta name="twitter:image:src" content="">
+    <meta name="og:image" content="">
+
+    <!-- Embed URL -->
+    <meta name="twitter:player" content="">
+
+    <!-- Video URL -->
+    <meta name="twitter:player:stream" content="">
+    <meta name="og:video" content="">
+
+    <!-- Video Width -->
+    <meta name="twitter:player:width" content="">
+    <meta name="video:width" content="">
+
+    <!-- Video Height -->
+    <meta name="twitter:player:height" content="">
+    <meta name="video:height" content="">
+
+    <!-- Video Type -->
+    <meta name="twitter:player:stream:content_type" content="video/mp4">
+    <meta name="video:type" content="video/mp4">
+
+    <!-- Embed Type -->
+    <meta name="twitter:card" content="player">
+    <meta name="og:type" content="video.other">
+
+    <!-- Date -->
+    <meta name="video:release_date" content="">
+
+    <!-- Page URL -->
+    <meta name="og:url" content="">
+
+    <!-- Twitter -->
+    <meta name="twitter:site" content="@UA_Archive">
+    
+    <!-- Site Name -->
+    <meta name="og:site_name" content="The Unus Annus Archive">
+    
+    
+  </head>
+  <body>
+    <a href="/" id="back">Go Home</a>
+    
+    <noscript><h1 style="color:#ff0000;">PLEASE ENABLE JAVASCRIPT FOR THIS SITE TO WORK!</h1></noscript>
+
+    <video id="player" playsinline controls crossorigin="anonymous"></video>
+
+    <div id="autoplayCountDown">
+      <div id="autoplayContainer">
+        <div id="playNow">
+          <img src="//cdn.unusannusarchive.tk/site-assets/img/autoplay/next.svg" />
+        </div>
+      </div>
+      <h2>Autoplay</h2>
+      <p><span id="seconds">5</span> seconds</p>
+      <div id="cancelAutoplay">
+        <span>Cancel</span>
+      </div>
+    </div>
+
+    <div id="previousnext">
+      <div id="next"><a href="#" id="nextvideo">Next</a></div>
+      <div id="previous"><a href="#"  id="previousvideo" onclick="previous()">Previous</a></div>
+    </div>
+
+    <div id="info">
+      <h1 id="title">Fetching Metadata...</h1> <img alt="Share" id="share" src="//cdn.unusannusarchive.tk/site-assets/img/share.svg" />
+      <p><span id="season"></span> - <span id="episode"></span></p>
+      <br />
+      <p id="date"></p>
+      <br />
+      <p id="description"></p>
+      <br />
+      <br />
+      <div class="autoplayToggle">
+        <label>Autoplay <input id="autoplayCheck" type="checkbox" /></label>
+      </div>
+    </div>
+
+    <template id="comment-template">
+      <div class="comment">
+        <div class="picture">
+          <img id="profpic" src="" width="48" height="48" />
+        </div>
+        <div class="comment-body">
+          <p class="info"><span id="username" class="username"></span> <span id="time" class="time"></span></p>
+          <p id="text" class="text"></p>
+        </div>
+      </div>
+    </template>
+
+    <div class="comments">
+      <h3>Comments</h3>
+      <hr />
+
+      <!-- This is the comment input, but we're using the same classes as a normal comment because its easier -->
+      <div id="addcomment" class="comment">
+        <div class="picture">
+          <img id="currentpfp" width="48" height="48">
+        </div>
+        <div class="comment-body">
+          <p class="info">
+            <span id="currentusername" class="username">Not logged in!</span>
+          </p>
+          <p class="text">
+            <input id="commenttext" type="text" placeholder="Add a public comment..." maxlength="500">
+            <button id="submitcomment">Comment</button>
+          </p>
+        </div>
+      </div>
+
+      <div id="comments">
+
+      </div>
+    </div>
+    
+    <!-- Fix TypeScript exports error -->
+    <script>exports = {}</script>
+    <script src="https://cdn.plyr.io/3.6.3/plyr.js"></script>
+    <script src="/js/@global/error.js"></script>
+    <script src="js/main.js" type="module"></script>
+    <script src="js/next.js" type="module"></script>
+    <script src="js/previous.js" type="module"></script>
+    <script src="js/share.js" type="module"></script>
+    <script src="js/autoplay.js" type="module"></script>
+    <script src="js/comments.js" type="module"></script>
+    <script src="/js/@global/account.js" type="module"></script>
+    
+    <script src="https://s1nmw1bqqbhn.statuspage.io/embed/script.js"></script>
+  </body>
+</html>

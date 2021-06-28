@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Manage Account - The Unus Annus Archive</title>
+    <link rel="icon" href="//cdn.unusannusarchive.tk/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/main.css" />
+    <meta charset="utf-8">
+    <meta itemprop="name" content="Manage Account - The Unus Annus Archive">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Manage Account - The Unus Annus Archive">
+    <meta name="twitter:site" content="@Scribble_Nerd">
+    <meta name="og:title" content="Manage Account - The Unus Annus Archive">
+    <meta name="og:url" content="https://www.unusannusarchive.tk">
+    <meta name="og:site_name" content="The Unus Annus Archive">
+    <meta name="og:type" content="website">
+  </head>
+  <body>
+    <a href="/" id="back">Go Home</a>
+
+    <div id="container">
+      <noscript><h1 style="color:#ff0000;">PLEASE ENABLE JAVASCRIPT FOR THIS SITE TO WORK!</h1></noscript>
+
+      <h1>Manage Account</h1>
+  
+      <h3>Profile Picture</h3>
+      <img class="pfp" id="currentpfp" width="64" height="64" /><br />
+      <a id="showpfpupdateform" href="#" onclick="showpfpupdateform()">Upload New Profile Picture</a>
+      <form id="pfpupdateform" method="POST" action="/api/v2/account/changepfp?redirect=/account/manage" enctype="multipart/form-data">
+        <input type="hidden" name="loginKey" id="pfpform-loginKey" />
+        
+        <input id="pfpfileinput" type="file" name="pfp" /><br />
+        <br />
+        <button class="smlBtn" type="button" onclick="hidepfpupdateform()">Cancel</button> <input class="smlBtn" type="submit" />
+      </form>
+      <br />
+      <h3>Logout</h3>
+      <button id="locallogout">Logout This Device</button><br />
+      <button id="logoutall">Logout All Devices</button>
+    </div>
+
+    <!-- Fix TypeScript exports error -->
+    <script>exports = {}</script>
+    <script src="js/main.js"></script>
+    <script src="/js/@global/account.js"></script>
+  </body>
+</html>

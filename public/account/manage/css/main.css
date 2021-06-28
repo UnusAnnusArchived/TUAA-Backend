@@ -1,0 +1,78 @@
+body {
+  overflow-x: hidden;
+  margin: 50px 0 50px 0;
+  background-color: #1c1c1e;
+  color: #ffffff;
+  text-align: center;
+  font-family: arial;
+}
+
+a {
+  color: #ffffff;
+}
+
+#container {
+  display: inline-block;
+  max-width: 1000px;
+}
+
+#back {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: #ffffff;
+}
+
+.pfp {
+  border-radius: 360px;
+  object-fit: cover; /* If the user uploads an image that isn't 1:1 make the image crop instead of stretching it for the live preview */
+}
+
+#showpfpupdateform {
+  display: block;
+  margin: 16px 0 16px 0;
+}
+
+#pfpupdateform {
+  display: none;
+  margin: 16px 0 16px 0;
+}
+
+button,input[type="submit"] {
+  width: 200px;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  color: #ffffff;
+  background: #262629;
+  cursor: pointer;
+  animation: btnUnhover .3s;
+  margin-bottom: 5px;
+}
+
+button:hover,input[type="submit"]:hover {
+  animation: btnHover .3s;
+  background: #2b2b2e;
+}
+
+.smlBtn {
+  width: 100px!important;
+}
+
+@keyframes btnHover {
+  from {
+    background: #262629;
+  }
+  to {
+    background: #2b2b2e;
+  }
+}
+
+@keyframes btnUnhover {
+  from {
+    background: #2b2b2e;
+  }
+  to {
+    background: #262629;
+  }
+}

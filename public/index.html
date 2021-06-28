@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>The Unus Annus Archive</title>
+    <link rel="icon" href="//cdn.unusannusarchive.tk/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/main.css" />
+    <meta charset="utf-8">
+    <meta itemprop="name" content="The Unus Annus Archive">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="The Unus Annus Archive">
+    <meta name="twitter:site" content="@Scribble_Nerd">
+    <meta name="og:title" content="The Unus Annus Archive">
+    <meta name="og:url" content="https://www.unusannusarchive.tk">
+    <meta name="og:site_name" content="The Unus Annus Archive">
+    <meta name="og:type" content="website">
+  </head>
+  <body>
+    <div id="container">
+      <noscript><h1 style="color:#ff0000;">PLEASE ENABLE JAVASCRIPT FOR THIS SITE TO WORK!</h1></noscript>
+
+      <div id="login">
+        <a href="/account/signup">Sign up</a> or <a href="/account/login">Login</a>
+      </div>
+
+      <h1>The Unus Annus Archive</h1>
+      
+      <!-- Search -->
+      <div id="search">
+        <input title="Search" id="searchbox" type="text" placeholder="Search" />
+      </div>
+
+      <!-- Social Media -->
+      <div id="socialmedia">
+        <a title="Unus Annus Archive Twitter" href="https://twitter.com/UA_Archive" target="_blank">
+          <img alt="Twitter Logo" src="//cdn.unusannusarchive.tk/site-assets/img/social-media/twitter.svg" height="30px" />
+        </a>
+        <a title="Unus Annus Archive Discord" href="https://discord.gg/PbpJz8r4Pr" target="_blank">
+          <img alt="Discord Logo" src="//cdn.unusannusarchive.tk/site-assets/img/social-media/discord.svg" height="27px" />
+        </a>
+      </div>
+
+
+      <div id="err">
+        <h3>It appears we're having issues loading some of the data on this page. This will most likely be fixed in a few minutes. If not, please contact us with the email at the bottom of the page.</h3>
+      </div>
+  
+      <template id="template">
+        <div id="video">
+          <a id="url" href="">
+            <img loading="lazy" alt="Video Thumbnail" id="thumbnail" src="" height="140.63" />
+            <p id="title"></p>
+            <p class="se"><span id="season"></span> - <span id="episode"></span></p>
+          </a>
+        </div>
+      </template>
+  
+      <div id="mainContent">
+        <p><a style="color:#ffffff;" href="/downloads/">Downloads</a></p>
+
+        <p id="loadingText">Loading videos... Please wait.</p>
+
+        <span id="searchStat"></span>
+  
+        <div id="vidcontainer"></div>
+
+        <p>Memento, mors non est finis.</p>
+        <br />
+        <p class="contact">If you have any questions, concerns, or you have something to improve, please contact me at <a href="mailto:contact@unusannusarchive.tk">contact@unusannusarchive.tk</a></p>
+      </div>
+    </div>
+
+    <!-- Fix TypeScript exports error -->
+    <script>exports = {}</script>
+    <script src="js/main.js"></script>
+    <script src="js/search.js"></script>
+    <script src="js/account-manager.js"></script>
+    <script src="/js/@global/account.js"></script>
+    <script src="/js/@global/error.js"></script>
+  </body>
+</html>

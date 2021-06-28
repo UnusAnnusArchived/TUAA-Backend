@@ -1,0 +1,12 @@
+:root {
+  font-family: arial;
+}
+
+body {
+  margin: 0 0 0 0;
+}
+
+.plyr {
+  width: 100%;
+  height: 100vh;
+}

@@ -1,0 +1,62 @@
+body {
+  overflow-x: hidden;
+  margin: 50px 0 50px 0;
+  background-color: #1c1c1e;
+  color: #ffffff;
+  text-align: center;
+  font-family: arial;
+}
+
+#container {
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+  width: 1000px;
+  margin: 0 0 0 0;
+}
+
+#title {
+  margin: 5px 0 0 0;
+}
+
+.contact {
+  font-style: italic;
+}
+
+.contact a {
+  color: #ffffff;
+}
+
+button {
+  padding: 0 10px;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  color: #ffffff;
+  background: #262629;
+  cursor: pointer;
+  animation: btnUnhover .3s;
+  margin-bottom: 5px;
+}
+
+button:hover {
+  animation: btnHover .3s;
+  background: #2b2b2e;
+}
+
+@keyframes btnHover {
+  from {
+    background: #262629;
+  }
+  to {
+    background: #2b2b2e;
+  }
+}
+
+@keyframes btnUnhover {
+  from {
+    background: #2b2b2e;
+  }
+  to {
+    background: #262629;
+  }
+}

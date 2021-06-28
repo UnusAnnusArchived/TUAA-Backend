@@ -1,0 +1,1 @@
+{"compilerOptions":{"target":"ES5","noImplicitAny":false,"strictNullChecks":false,"typeRoots":["node_modules/@types","*/types"],"esModuleInterop":true,"skipLibCheck":true,"forceConsistentCasingInFileNames":true,"sourceMap": true,"moduleResolution": "node","resolveJsonModule": true},"exclude": ["ts/types/*","node_modules/*","public/*"]}

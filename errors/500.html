@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>404 Not Found</title>
+    <title>500 Internal Server Error</title>
     <link rel="icon" href="//cdn.unusannusarchive.tk/favicon.ico" />
     <style>
       body {
@@ -18,19 +18,25 @@
         text-align: center;
       }
 
-      .path {
+      #path {
         font-weight: bold;
       }
 
       a {
         color: #ffffff;
       }
+
+      .error {
+        color: #ff0000;
+        text-align: left;
+      }
     </style>
   </head>
   <body>
     <div class="container">
-      <h1>404 Not Found</h1>
-      <p>Sorry, but the file <span class="path">{path}</span> was not found on this server.</span></p>
+      <h1>500 Internal Server Error</h1>
+      <p>Sorry, but we've experienced an internal error! This is most likely not your fault. Please <a href="mailto:contact@unusannusarchive.tk">contact us</a> and provide the following error.</span></p>
+      <pre class="error">{error}</pre>
       <br />
       <p><a href="/">Click here to go home</a></p>
     </div>

@@ -1,0 +1,9 @@
+There has been a new login to your account {{ user.username }}. Was this you?
+
+If this was you:
+You can ignore this message.
+
+If this wasn't you:
+Immediately complete these steps to protect your account:
+  • Change your password. You will be immediately logged out of all active sessions.
+  • Contact us.
