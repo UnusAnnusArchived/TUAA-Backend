@@ -1,4 +1,5 @@
-### This branch is still in beta and may contain bugs!
+# *This repo has been archived*
+Please visit the new repo [here](https://github.com/UnusAnnusArchived/TUAA-Backend)
 
 <hr>
 
