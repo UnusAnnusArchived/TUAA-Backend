@@ -1,7 +1,4 @@
-# *This repo has been archived*
-Please visit the new repo [here](https://github.com/UnusAnnusArchived/TUAA-Backend)
-
-<hr>
+# This is very outdated!
 
 # The Unus Annus Archive Source Code
 The source code of the now taken down Unus Annus Archive
