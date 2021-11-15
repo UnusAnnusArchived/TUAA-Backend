@@ -1,5 +1,5 @@
-# **THIS REPO IS VERY OUTDATED!**
-**We will be updating it with the latest source code very soon.**
+# *This repo has been archived*
+Please visit the new repo [here](https://github.com/UnusAnnusArchived/TUAA-Backend)
 
 <hr>
 
