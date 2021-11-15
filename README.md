@@ -1,7 +1,4 @@
-# *This repo has been archived*
-Please visit the new repo [here](https://github.com/UnusAnnusArchived/TUAA-Backend)
-
-<hr>
+#  This isn't as outdated as the main branch, but it's still pretty outdated
 
 # The Unus Annus Archive Backend
 Here is an example CDN if you're looking to setup your own (you will need to modify a bit of code since the current one is hard-coded into a few things)
