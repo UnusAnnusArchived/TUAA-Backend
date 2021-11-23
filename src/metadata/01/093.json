@@ -1,0 +1,46 @@
+{
+  "sources": [
+    {
+      "src": "//cdn.unusann.us/01/093/1080.mp4",
+      "type": "video/mp4",
+      "size": 1080
+    },
+    {
+      "src": "//cdn.unusann.us/01/093/720.mp4",
+      "type": "video/mp4",
+      "size": 720
+    },
+    {
+      "src": "//cdn.unusann.us/01/093/480.mp4",
+      "type": "video/mp4",
+      "size": 480
+    },
+    {
+      "src": "//cdn.unusann.us/01/093/360.mp4",
+      "type": "video/mp4",
+      "size": 360
+    },
+    {
+      "src": "//cdn.unusann.us/01/093/240.mp4",
+      "type": "video/mp4",
+      "size": 240
+    }
+  ],
+  "tracks": [],
+  "posters": [
+    {
+      "src": "//cdn.unusann.us/thumbnails/01/093.webp",
+      "type": "image/webp"
+    },
+    {
+      "src": "//cdn.unusann.us/thumbnails/01/093.jpg",
+      "type": "image/jpeg"
+    }
+  ],
+  "season": 1,
+  "episode": 93,
+  "title": "Our Perfect (and last) Valentine's Day",
+  "description": "Today, Mark and Ethan discover the TRUE meaning of everlasting love.",
+  "date": 1581706800000,
+  "duration": 847
+}

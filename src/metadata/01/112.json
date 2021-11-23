@@ -1,0 +1,46 @@
+{
+  "sources": [
+    {
+      "src": "//cdn.unusann.us/01/112/1080.mp4",
+      "type": "video/mp4",
+      "size": 1080
+    },
+    {
+      "src": "//cdn.unusann.us/01/112/720.mp4",
+      "type": "video/mp4",
+      "size": 720
+    },
+    {
+      "src": "//cdn.unusann.us/01/112/480.mp4",
+      "type": "video/mp4",
+      "size": 480
+    },
+    {
+      "src": "//cdn.unusann.us/01/112/360.mp4",
+      "type": "video/mp4",
+      "size": 360
+    },
+    {
+      "src": "//cdn.unusann.us/01/112/240.mp4",
+      "type": "video/mp4",
+      "size": 240
+    }
+  ],
+  "tracks": [],
+  "posters": [
+    {
+      "src": "//cdn.unusann.us/thumbnails/01/112.webp",
+      "type": "image/webp"
+    },
+    {
+      "src": "//cdn.unusann.us/thumbnails/01/112.jpg",
+      "type": "image/jpeg"
+    }
+  ],
+  "season": 1,
+  "episode": 112,
+  "title": "Becoming the World's Greatest DJs ",
+  "description": "Today we become the worlds most talented and skilled DJs<br>",
+  "date": 1583348400000,
+  "duration": 1171
+}

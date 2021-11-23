@@ -1,0 +1,45 @@
+{
+  "sources": [
+    {
+      "src": "//cdn.unusann.us/01/130/1080.mp4",
+      "type": "video/mp4",
+      "size": 1080
+    },
+    {
+      "src": "//cdn.unusann.us/01/130/720.mp4",
+      "type": "video/mp4",
+      "size": 720
+    },
+    {
+      "src": "//cdn.unusann.us/01/130/480.mp4",
+      "type": "video/mp4",
+      "size": 480
+    },
+    {
+      "src": "//cdn.unusann.us/01/130/360.mp4",
+      "type": "video/mp4",
+      "size": 360
+    },
+    {
+      "src": "//cdn.unusann.us/01/130/240.mp4",
+      "type": "video/mp4",
+      "size": 240
+    }
+  ],
+  "tracks": [],
+  "posters": [
+    {
+      "src": "//cdn.unusann.us/thumbnails/01/130.webp",
+      "type": "image/webp"
+    },
+    {
+      "src": "//cdn.unusann.us/thumbnails/01/130.jpg",
+      "type": "image/jpeg"
+    }
+  ],
+  "season": 1,
+  "episode": 130,
+  "title": "Mark and Ethan Are Now Fathers",
+  "description": "After 2 days of labor and delivery, Unus and Annus have given birth to 2 beautiful baby boys! Now they get to experience the joy of fatherhood.",
+  "date": 1584903600000
+}

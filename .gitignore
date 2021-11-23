@@ -1,0 +1,5 @@
+node_modules
+src/db/userdata/profilepics/*
+src/db/users/*
+src/db/uservideoprogress/*
+src/config.json

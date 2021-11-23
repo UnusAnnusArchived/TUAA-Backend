@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="../../../css/main.css" />
+  </head>
+  <body>
+    <h1><code>/v2/account/changepfp</code></h1>
+    <p>This endpoint accepts a <code>POST</code> request with the <code>multipart/form-data</code> encoding type.</p>
+    <p>It accepts a <code>pfp</code> input which is a file upload of the profile picture, and a <code>loginKey</code> input which contains the loginKey in plaintext.</p>
+    <p>You can also add a <code>redirect</code> query variable to the request to make it redirect to a certain page instead of sending a response.</p>
+    <h3>Successful Response</h3>
+    <iframe src='../../../request-preview/?value={"status":"success"}'></iframe>
+    <h3>Unsuccessful Responses</h3>
+    <h4>Not Logged In</h4>
+    <iframe src='../../../request-preview/?value={"error":"Not logged in!"}'></iframe>
+  </body>
+</html>

@@ -1,0 +1,46 @@
+{
+  "sources": [
+    {
+      "src": "//cdn.unusann.us/01/107/1080.mp4",
+      "type": "video/mp4",
+      "size": 1080
+    },
+    {
+      "src": "//cdn.unusann.us/01/107/720.mp4",
+      "type": "video/mp4",
+      "size": 720
+    },
+    {
+      "src": "//cdn.unusann.us/01/107/480.mp4",
+      "type": "video/mp4",
+      "size": 480
+    },
+    {
+      "src": "//cdn.unusann.us/01/107/360.mp4",
+      "type": "video/mp4",
+      "size": 360
+    },
+    {
+      "src": "//cdn.unusann.us/01/107/240.mp4",
+      "type": "video/mp4",
+      "size": 240
+    }
+  ],
+  "tracks": [],
+  "posters": [
+    {
+      "src": "//cdn.unusann.us/thumbnails/01/107.webp",
+      "type": "image/webp"
+    },
+    {
+      "src": "//cdn.unusann.us/thumbnails/01/107.jpg",
+      "type": "image/jpeg"
+    }
+  ],
+  "season": 1,
+  "episode": 107,
+  "title": "Blowing Our Souls Into Some Hot Glass ",
+  "description": "Glass blowing is a hot and dangerous art form that involves skill, patience, and a whole heck of a lot of blowing. Are Mark and Ethan up to the task?<br>",
+  "date": 1582916400000,
+  "duration": 1796
+}

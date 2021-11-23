@@ -1,0 +1,45 @@
+{
+  "sources": [
+    {
+      "src": "//cdn.unusann.us/01/169/1080.mp4",
+      "type": "video/mp4",
+      "size": 1080
+    },
+    {
+      "src": "//cdn.unusann.us/01/169/720.mp4",
+      "type": "video/mp4",
+      "size": 720
+    },
+    {
+      "src": "//cdn.unusann.us/01/169/480.mp4",
+      "type": "video/mp4",
+      "size": 480
+    },
+    {
+      "src": "//cdn.unusann.us/01/169/360.mp4",
+      "type": "video/mp4",
+      "size": 360
+    },
+    {
+      "src": "//cdn.unusann.us/01/169/240.mp4",
+      "type": "video/mp4",
+      "size": 240
+    }
+  ],
+  "tracks": [],
+  "posters": [
+    {
+      "src": "//cdn.unusann.us/thumbnails/01/169.webp",
+      "type": "image/webp"
+    },
+    {
+      "src": "//cdn.unusann.us/thumbnails/01/169.jpg",
+      "type": "image/jpeg"
+    }
+  ],
+  "season": 1,
+  "episode": 169,
+  "title": "We Looked at Unus Annus Memes",
+  "description": "Did you know Unus Annus has its own subreddit? We kinda forgot.",
+  "date": 1588273200000
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <div id="request-params" class="request-params hidden">
+      <template id="param-template">
+        <span class="param-name"></span><br />
+        <input class="param-input" type="text" value="" /><br /><br />
+      </template>
+
+      <button id="submit">Go</button>
+    </div>
+
+    <div id="output" class="output"></div>
+
+    <script src="/node_modules/monaco-editor/min/vs/loader.js"></script>
+    <script src="js/init.js" type="module"></script>
+  </body>
+</html>

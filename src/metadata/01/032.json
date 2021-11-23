@@ -1,0 +1,46 @@
+{
+  "sources": [
+    {
+      "src": "//cdn.unusann.us/01/032/1080.mp4",
+      "type": "video/mp4",
+      "size": 1080
+    },
+    {
+      "src": "//cdn.unusann.us/01/032/720.mp4",
+      "type": "video/mp4",
+      "size": 720
+    },
+    {
+      "src": "//cdn.unusann.us/01/032/480.mp4",
+      "type": "video/mp4",
+      "size": 480
+    },
+    {
+      "src": "//cdn.unusann.us/01/032/360.mp4",
+      "type": "video/mp4",
+      "size": 360
+    },
+    {
+      "src": "//cdn.unusann.us/01/032/240.mp4",
+      "type": "video/mp4",
+      "size": 240
+    }
+  ],
+  "tracks": [],
+  "posters": [
+    {
+      "src": "//cdn.unusann.us/thumbnails/01/032.webp",
+      "type": "image/webp"
+    },
+    {
+      "src": "//cdn.unusann.us/thumbnails/01/032.jpg",
+      "type": "image/jpeg"
+    }
+  ],
+  "season": 1,
+  "episode": 32,
+  "title": "You Made Beautiful Music for The Barrel... But Only One Could Win",
+  "description": "You blew us away with the incredible music you crafted in honor of The Barrel. Now The Barrel can live on in our memories. All of the participants in this video are linked below. Please send love to them and everyone who made music by searching #RIPTheBarrel<br><br>The WINNER ► <a target=\"blank\" href=\"https://www.youtube.com/watch?v=Q_40i-e4OrY\">https://www.youtube.com/watch?v=Q_40i-e4OrY</a><br><br>THERE WERE SO MANY MORE PEOPLE THAT PARTICIPATED THAN WE COULD EVER PUT IN A VIDEO. PLEASE GO AND SEND LOVE TO EVERYONE THAT PARTICIPATED IN THE CHALLENGE!<br><br>Big thanks to DAN for helping us out with our cover ► <a target=\"blank\" href=\"https://www.youtube.com/musiciscode\">https://www.youtube.com/musiciscode</a><br><br>Edited By ► <a target=\"blank\" href=\"http://www.youtube.com/markiplier\">http://www.youtube.com/markiplier</a><br><br>This channel, along with every video that has or will ever be uploaded on this channel, will be deleted after our year has ended. This is inevitable. Inescapable. Irreversible.<br>Do not archive or re-upload anything. This is our last wish. Our parting gift. Stay true to the purpose of our final year or we shall lay down wrath upon those that attempt to escape the end.<br><br>Memento Mori.<br>Unus Annus.",
+  "date": 1576436400000,
+  "duration": 582
+}

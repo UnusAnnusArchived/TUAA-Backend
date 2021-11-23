@@ -1,0 +1,46 @@
+{
+  "sources": [
+    {
+      "src": "//cdn.unusann.us/01/072/1080.mp4",
+      "type": "video/mp4",
+      "size": 1080
+    },
+    {
+      "src": "//cdn.unusann.us/01/072/720.mp4",
+      "type": "video/mp4",
+      "size": 720
+    },
+    {
+      "src": "//cdn.unusann.us/01/072/480.mp4",
+      "type": "video/mp4",
+      "size": 480
+    },
+    {
+      "src": "//cdn.unusann.us/01/072/360.mp4",
+      "type": "video/mp4",
+      "size": 360
+    },
+    {
+      "src": "//cdn.unusann.us/01/072/240.mp4",
+      "type": "video/mp4",
+      "size": 240
+    }
+  ],
+  "tracks": [],
+  "posters": [
+    {
+      "src": "//cdn.unusann.us/thumbnails/01/072.webp",
+      "type": "image/webp"
+    },
+    {
+      "src": "//cdn.unusann.us/thumbnails/01/072.jpg",
+      "type": "image/jpeg"
+    }
+  ],
+  "season": 1,
+  "episode": 72,
+  "title": "We Hired a Real Hypnotherapist to Analyze Our Darkest Dreams",
+  "description": "Hypnotherapy is the art of mental suggestion. This isn't the stage entertainment variety of hypnosis. This is real therapy to help people get in touch with what's bothering them deep inside. <br>Find Liza Here ➤ <a target=\"blank\" href=\"https://healwithin.com\">https://healwithin.com</a><br><br>Edited By ► <a target=\"blank\" href=\"http://www.youtube.com/LixianTV\">http://www.youtube.com/LixianTV</a>",
+  "date": 1579892400000,
+  "duration": 1548
+}

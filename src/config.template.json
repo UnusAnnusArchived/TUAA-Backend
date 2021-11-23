@@ -1,0 +1,20 @@
+{
+  "metadataPath": "src/metadata",
+  "mysql": {
+    "connectionLimit": 10,
+    "host": "www.example.com",
+    "user": "theunusannusarchive",
+    "password": "abc123",
+    "database": "theunusannusarchive"
+  },
+  "smtp": {
+    "pool": true,
+    "host": "smtp.example.com",
+    "port": 465,
+    "secure": true,
+    "auth": {
+      "user": "noreply@unusannusarchive.tk",
+      "pass": "abc123"
+    }
+  }
+}

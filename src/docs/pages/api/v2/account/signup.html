@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="../../../css/main.css" />
+  </head>
+  <body>
+    <h1><code>/v2/account/signup</code></h1>
+    <p>This endpoint accepts a <code>POST</code> request with the <code>application/json</code> encoding type.</p>
+    <p>It accepts the following values in the JSON body: <code>email</code>, <code>username</code>, <code>password</code>, and <code>confirmpassword</code></p>
+    <h3>Successful Response</h3>
+    <iframe src='../../../request-preview/?value={"success":true,"loginURI":"/v2/account/login"}'></iframe>
+    <h3>Unsuccessful Responses</h3>
+    <h4>Passwords Do Not Match</h4>
+    <iframe src='../../../request-preview/?value={"success":false,"error":{"code":0,"message":"Passwords do not match!"}}'></iframe>
+    <h4>Account Exists</h4>
+    <iframe src='../../../request-preview/?value={"success":false,"error":{"code":1,"message":"Account exists!"}}'></iframe>
+    <h4>Missing Info</h4>
+    <iframe src='../../../request-preview/?value={"success":false,"error":{"code":2,"message":"Missing info!"}}'></iframe>
+  </body>
+</html>

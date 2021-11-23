@@ -1,0 +1,45 @@
+{
+  "sources": [
+    {
+      "src": "//cdn.unusann.us/01/152/1080.mp4",
+      "type": "video/mp4",
+      "size": 1080
+    },
+    {
+      "src": "//cdn.unusann.us/01/152/720.mp4",
+      "type": "video/mp4",
+      "size": 720
+    },
+    {
+      "src": "//cdn.unusann.us/01/152/480.mp4",
+      "type": "video/mp4",
+      "size": 480
+    },
+    {
+      "src": "//cdn.unusann.us/01/152/360.mp4",
+      "type": "video/mp4",
+      "size": 360
+    },
+    {
+      "src": "//cdn.unusann.us/01/152/240.mp4",
+      "type": "video/mp4",
+      "size": 240
+    }
+  ],
+  "tracks": [],
+  "posters": [
+    {
+      "src": "//cdn.unusann.us/thumbnails/01/152.webp",
+      "type": "image/webp"
+    },
+    {
+      "src": "//cdn.unusann.us/thumbnails/01/152.jpg",
+      "type": "image/jpeg"
+    }
+  ],
+  "season": 1,
+  "episode": 152,
+  "title": "How to NOT be the Perfect Boyfriend",
+  "description": "**TW: Please be aware that in this video we discuss abuse and unhealthy relationship dynamics.**<br><a target=\"blank\" href=\"https://www.domesticshelters.org/resources/national-global-organizations\">https://www.domesticshelters.org/resources/national-global-organizations</a><br><a target=\"blank\" href=\"https://www.acf.hhs.gov/fysb/resource/help-fv\">https://www.acf.hhs.gov/fysb/resource/help-fv</a><br><a target=\"blank\" href=\"https://www.thehotline.org/help/\">https://www.thehotline.org/help/</a><br><a target=\"blank\" href=\"https://www.womenshealth.gov/relationships-and-safety/get-help/state-resources\">https://www.womenshealth.gov/relationships-and-safety/get-help/state-resources</a>",
+  "date": 1586804400000
+}

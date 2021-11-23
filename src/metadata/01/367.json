@@ -1,0 +1,156 @@
+{
+  "sources": [
+    {
+      "src": "//cdn.unusann.us/01/367/1080.mp4",
+      "type": "video/mp4",
+      "size": 1080
+    },
+    {
+      "src": "//cdn.unusann.us/01/367/720.mp4",
+      "type": "video/mp4",
+      "size": 720
+    },
+    {
+      "src": "//cdn.unusann.us/01/367/480.mp4",
+      "type": "video/mp4",
+      "size": 480
+    },
+    {
+      "src": "//cdn.unusann.us/01/367/360.mp4",
+      "type": "video/mp4",
+      "size": 360
+    },
+    {
+      "src": "//cdn.unusann.us/01/367/240.mp4",
+      "type": "video/mp4",
+      "size": 240
+    }
+  ],
+  "tracks": [],
+  "posters": [
+    {
+      "src": "//cdn.unusann.us/thumbnails/01/367.webp",
+      "type": "image/webp"
+    },
+    {
+      "src": "//cdn.unusann.us/thumbnails/01/367.jpg",
+      "type": "image/jpeg"
+    }
+  ],
+  "previewSprites": [
+    {
+      "src": "https://cdn.unusann.us/01/367/previews/sprite01.jpg",
+      "length": 414
+    },
+    {
+      "src": "https://cdn.unusann.us/01/367/previews/sprite02.jpg",
+      "length": 828
+    },
+    {
+      "src": "https://cdn.unusann.us/01/367/previews/sprite03.jpg",
+      "length": 1242
+    },
+    {
+      "src": "https://cdn.unusann.us/01/367/previews/sprite04.jpg",
+      "length": 1656
+    },
+    {
+      "src": "https://cdn.unusann.us/01/367/previews/sprite05.jpg",
+      "length": 2070
+    },
+    {
+      "src": "https://cdn.unusann.us/01/367/previews/sprite06.jpg",
+      "length": 2484
+    },
+    {
+      "src": "https://cdn.unusann.us/01/367/previews/sprite07.jpg",
+      "length": 2898
+    },
+    {
+      "src": "https://cdn.unusann.us/01/367/previews/sprite08.jpg",
+      "length": 3312
+    },
+    {
+      "src": "https://cdn.unusann.us/01/367/previews/sprite09.jpg",
+      "length": 3726
+    },
+    {
+      "src": "https://cdn.unusann.us/01/367/previews/sprite10.jpg",
+      "length": 4140
+    },
+    {
+      "src": "https://cdn.unusann.us/01/367/previews/sprite11.jpg",
+      "length": 4554
+    },
+    {
+      "src": "https://cdn.unusann.us/01/367/previews/sprite12.jpg",
+      "length": 4968
+    },
+    {
+      "src": "https://cdn.unusann.us/01/367/previews/sprite13.jpg",
+      "length": 5382
+    },
+    {
+      "src": "https://cdn.unusann.us/01/367/previews/sprite14.jpg",
+      "length": 5796
+    },
+    {
+      "src": "https://cdn.unusann.us/01/367/previews/sprite15.jpg",
+      "length": 6210
+    },
+    {
+      "src": "https://cdn.unusann.us/01/367/previews/sprite16.jpg",
+      "length": 6624
+    },
+    {
+      "src": "https://cdn.unusann.us/01/367/previews/sprite17.jpg",
+      "length": 7038
+    },
+    {
+      "src": "https://cdn.unusann.us/01/367/previews/sprite18.jpg",
+      "length": 7452
+    },
+    {
+      "src": "https://cdn.unusann.us/01/367/previews/sprite19.jpg",
+      "length": 7866
+    },
+    {
+      "src": "https://cdn.unusann.us/01/367/previews/sprite20.jpg",
+      "length": 8280
+    },
+    {
+      "src": "https://cdn.unusann.us/01/367/previews/sprite21.jpg",
+      "length": 8694
+    },
+    {
+      "src": "https://cdn.unusann.us/01/367/previews/sprite22.jpg",
+      "length": 9108
+    },
+    {
+      "src": "https://cdn.unusann.us/01/367/previews/sprite23.jpg",
+      "length": 9522
+    },
+    {
+      "src": "https://cdn.unusann.us/01/367/previews/sprite24.jpg",
+      "length": 9936
+    },
+    {
+      "src": "https://cdn.unusann.us/01/367/previews/sprite25.jpg",
+      "length": 10350
+    },
+    {
+      "src": "https://cdn.unusann.us/01/367/previews/sprite26.jpg",
+      "length": 10764
+    },
+    {
+      "src": "https://cdn.unusann.us/01/367/previews/sprite27.jpg",
+      "length": 10806
+    }
+  ],
+  "season": 1,
+  "episode": 367,
+  "title": "Goodbye.",
+  "description": "This is it. We will be deleting this channel live on stream. Join us for our final moments.",
+  "date": 1605294000000,
+  "duration": 43216
+}

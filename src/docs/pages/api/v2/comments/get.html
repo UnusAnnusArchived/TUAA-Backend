@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="../../../css/main.css" />
+  </head>
+  <body>
+    <h1><code>/v2/comments/get/&lt;video&gt;</code></h1>
+    <p>This endpoint accepts a video id as a url argument and returns an array of comment objects</p>
+    <p>It also has optional <code>from</code> and <code>to</code> query variables that control how many comments get sent.</p>
+    <p>An example request url would be <code>/v2/comments/get/s01.e001?from=0&to=20</code></p>
+    <h3>Preview Response</h3>
+    <iframe style="height:700px;" src='../../../request-preview/?path=/v2/comments/get&showparams=true&customparamsheight=200&params=[{"name":"To","id":"to","default":"20","type":"query"},{"name":"From","id":"from","default":"0","type":"query"},{"name":"Video ID","id":"videoid","default":"s01.e001"}]'></iframe>
+  </body>
+</html>

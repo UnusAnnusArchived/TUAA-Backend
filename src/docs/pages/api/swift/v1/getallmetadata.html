@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="../../../css/main.css" />
+  </head>
+  <body>
+    <h1><code>/swift/v1/getallmetadata</code></h1>
+    <p>This is just a modified version of <code>/v1/getallmetadata</code> that was added while the Swift app was being developed.</p>
+    <p>The only thing different about it is that it outputs an object with 2 keys that contain array instead of an array containing 2 other arrays.</p>
+
+    <h3>Endpoint Diff</h3>
+    <div style="display:inline-grid;grid-template-columns:auto auto;width:1000px;">
+      <h3 style="margin:0 0 8px 0;"><code>/v1/getallmetadata</code></h3>
+      <h3 style="margin:0 0 8px 0;"><code>/swift/v1/getallmetadata</code></h3>
+    </div><br />
+    <iframe src='../../../request-preview/?value=[["season 0"],["season 1"]]' style="width: 500px;"></iframe>
+    <iframe src='../../../request-preview/?value={"specials":["season 0"],"season1":["seaason 1"]}' style="width: 500px;"></iframe>
+
+    <h3>Endpoint Response</h3>
+    <iframe src="../../../request-preview/?path=/swift/v1/getallmetadata"></iframe>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="../../../css/main.css" />
+  </head>
+  <body>
+    <h1><code>/v2/account/checkloginkey</code></h1>
+    <p>This endpoint accepts a <code>POST</code> request with the <code>application/json</code> encoding type.</p>
+    <p>It accepts a <code>loginKey</code> in the JSON body which contains the user's login key.</p>
+    <h3>Sample Successful Response</h3>
+    <iframe src='../../../request-preview/?value={"isValid":true,"user":{"id":"8416fb3c5a953976d47e4b2e6ca550fe","email":"contact@unusannusarchive.tk","username":"The Unus Annus Archive","pfp":{"originalFilename":"unusannus.png","filename":"/userdata/profilepics/8416fb3c5a953976d47e4b2e6ca550fe.jpg","width":64,"height":64,"format":"image/jpeg"}}}'></iframe>
+    <h3>Unsuccessful Responses</h3>
+    <h4>Invalid Login Key</h4>
+    <iframe src='../../../request-preview/?value={"isValid":false}'></iframe>
+  </body>
+</html>

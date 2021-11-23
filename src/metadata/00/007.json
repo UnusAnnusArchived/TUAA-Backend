@@ -1,0 +1,56 @@
+{
+  "sources": [
+    {
+      "src": "//cdn.unusann.us/00/007/2160.mp4",
+      "type": "video/mp4",
+      "size": 2160
+    },
+    {
+      "src": "//cdn.unusann.us/00/007/1440.mp4",
+      "type": "video/mp4",
+      "size": 1440
+    },
+    {
+      "src": "//cdn.unusann.us/00/007/1080.mp4",
+      "type": "video/mp4",
+      "size": 1080
+    },
+    {
+      "src": "//cdn.unusann.us/00/007/720.mp4",
+      "type": "video/mp4",
+      "size": 720
+    },
+    {
+      "src": "//cdn.unusann.us/00/007/480.mp4",
+      "type": "video/mp4",
+      "size": 480
+    },
+    {
+      "src": "//cdn.unusann.us/00/007/360.mp4",
+      "type": "video/mp4",
+      "size": 360
+    },
+    {
+      "src": "//cdn.unusann.us/00/007/240.mp4",
+      "type": "video/mp4",
+      "size": 240
+    }
+  ],
+  "tracks": [],
+  "posters": [
+    {
+      "src": "//cdn.unusann.us/thumbnails/00/007.webp",
+      "type": "image/webp"
+    },
+    {
+      "src": "//cdn.unusann.us/thumbnails/00/007.jpg",
+      "type": "image/jpeg"
+    }
+  ],
+  "season": 0,
+  "episode": 7,
+  "title": "The End is Here...",
+  "description": "It's been quite a year for Unus Annus. But a year is not forever... and time has finally run out. So join us Friday, November 13th for The End of Unus Annus and help us say goodbye one last time.",
+  "date": 1604689200000,
+  "duration": 110
+}

@@ -1,0 +1,24 @@
+body {
+  margin: 50px 0 50px 0;
+  background-color: #1c1c1e;
+  color: #ffffff;
+  text-align: center;
+  font-family: arial;
+}
+
+code {
+  background: #282c34;
+  padding: 4px;
+  border-radius: 5px;
+}
+
+iframe {
+  border: none;
+  border-radius: 10px;
+  width: 1000px;
+  height: 500px;
+}
+
+a {
+  color: #ffffff;
+}

@@ -1,0 +1,47 @@
+{
+  "sources": [
+    {
+      "src": "//cdn.unusann.us/00/011/1080.mp4",
+      "type": "video/mp4",
+      "size": 1080
+    },
+    {
+      "src": "//cdn.unusann.us/00/011/720.mp4",
+      "type": "video/mp4",
+      "size": 720
+    },
+    {
+      "src": "//cdn.unusann.us/00/011/480.mp4",
+      "type": "video/mp4",
+      "size": 480
+    },
+    {
+      "src": "//cdn.unusann.us/00/011/360.mp4",
+      "type": "video/mp4",
+      "size": 360
+    },
+    {
+      "src": "//cdn.unusann.us/00/011/240.mp4",
+      "type": "video/mp4",
+      "size": 240
+    }
+  ],
+  "tracks": [],
+  "posters": [
+    {
+      "src": "//cdn.unusann.us/thumbnails/00/011.webp",
+      "type": "image/webp"
+    },
+    {
+      "src": "//cdn.unusann.us/thumbnails/00/011.jpg",
+      "type": "image/jpeg"
+    }
+  ],
+  "season": 0,
+  "episode": 11,
+  "title": "What It Was Like To Edit For Unus Annus",
+  "description": "Hey! In this video I speak about my journey as the editor of Unus Annus!<br>Follow me on Twitter oki :3? <a target=\"blank\" href=\"https://twitter.com/Dicerolltv\">https://twitter.com/Dicerolltv</a>",
+  "date": 1605380400000,
+  "islast": false,
+  "duration": 745
+}

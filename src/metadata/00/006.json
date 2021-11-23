@@ -1,0 +1,46 @@
+{
+  "sources": [
+    {
+      "src": "//cdn.unusann.us/00/006/1080.mp4",
+      "type": "video/mp4",
+      "size": 1080
+    },
+    {
+      "src": "//cdn.unusann.us/00/006/720.mp4",
+      "type": "video/mp4",
+      "size": 720
+    },
+    {
+      "src": "//cdn.unusann.us/00/006/480.mp4",
+      "type": "video/mp4",
+      "size": 480
+    },
+    {
+      "src": "//cdn.unusann.us/00/006/360.mp4",
+      "type": "video/mp4",
+      "size": 360
+    },
+    {
+      "src": "//cdn.unusann.us/00/006/240.mp4",
+      "type": "video/mp4",
+      "size": 240
+    }
+  ],
+  "tracks": [],
+  "posters": [
+    {
+      "src": "//cdn.unusann.us/thumbnails/00/006.webp",
+      "type": "image/webp"
+    },
+    {
+      "src": "//cdn.unusann.us/thumbnails/00/006.jpg",
+      "type": "image/jpeg"
+    }
+  ],
+  "season": 0,
+  "episode": 6,
+  "title": "Traversing the Desert to Find Our Inner Truth",
+  "description": "An alternate cut of <a target=\"blank\" href=\"/watch/?v=s01.e257\">episode 257</a>.<br><hr><br>Rage, rage against in the dying of the light.",
+  "date": 1595790000000,
+  "duration": 120
+}

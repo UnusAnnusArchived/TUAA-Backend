@@ -1,0 +1,53 @@
+{
+  "sources": [
+    {
+      "src": "//cdn.unusann.us/00/001/1080.mp4",
+      "type": "video/mp4",
+      "size": 1080
+    },
+    {
+      "src": "//cdn.unusann.us/00/001/720.mp4",
+      "type": "video/mp4",
+      "size": 720
+    },
+    {
+      "src": "//cdn.unusann.us/00/001/480.mp4",
+      "type": "video/mp4",
+      "size": 480
+    },
+    {
+      "src": "//cdn.unusann.us/00/001/360.mp4",
+      "type": "video/mp4",
+      "size": 360
+    },
+    {
+      "src": "//cdn.unusann.us/00/001/240.mp4",
+      "type": "video/mp4",
+      "size": 240
+    }
+  ],
+  "tracks": [
+    {
+      "kind": "captions",
+      "label": "English",
+      "srclang": "en",
+      "src": "//cdn.unusann.us/subs/00/001.en.vtt"
+    }
+  ],
+  "posters": [
+    {
+      "src": "//cdn.unusann.us/thumbnails/00/001.webp",
+      "type": "image/webp"
+    },
+    {
+      "src": "//cdn.unusann.us/thumbnails/00/001.jpg",
+      "type": "image/jpeg"
+    }
+  ],
+  "season": 0,
+  "episode": 1,
+  "title": "This Will End in One Year (Mark)",
+  "description": "",
+  "date": 1573844400000,
+  "duration": 67
+}

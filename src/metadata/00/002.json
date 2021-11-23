@@ -1,0 +1,53 @@
+{
+  "sources": [
+    {
+      "src": "//cdn.unusann.us/00/002/1080.mp4",
+      "type": "video/mp4",
+      "size": 1080
+    },
+    {
+      "src": "//cdn.unusann.us/00/002/720.mp4",
+      "type": "video/mp4",
+      "size": 720
+    },
+    {
+      "src": "//cdn.unusann.us/00/002/480.mp4",
+      "type": "video/mp4",
+      "size": 480
+    },
+    {
+      "src": "//cdn.unusann.us/00/002/360.mp4",
+      "type": "video/mp4",
+      "size": 360
+    },
+    {
+      "src": "//cdn.unusann.us/00/002/240.mp4",
+      "type": "video/mp4",
+      "size": 240
+    }
+  ],
+  "tracks": [
+    {
+      "kind": "captions",
+      "label": "English",
+      "srclang": "en",
+      "src": "//cdn.unusann.us/subs/00/002.en.vtt"
+    }
+  ],
+  "posters": [
+    {
+      "src": "//cdn.unusann.us/thumbnails/00/002.webp",
+      "type": "image/webp"
+    },
+    {
+      "src": "//cdn.unusann.us/thumbnails/00/002.jpg",
+      "type": "image/jpeg"
+    }
+  ],
+  "season": 0,
+  "episode": 2,
+  "title": "This Will End in One Year (Ethan)",
+  "description": "",
+  "date": 1573844400000,
+  "duration": 57
+}

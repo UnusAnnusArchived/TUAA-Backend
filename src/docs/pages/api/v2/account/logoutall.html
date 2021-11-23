@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="../../../css/main.css" />
+  </head>
+  <body>
+    <h1><code>/v2/account/logoutall</code></h1>
+    <p>This endpoint accepts a <code>POST</code> request with the <code>application/json</code> encoding type.</p>
+    <p>It accepts a <code>id</code> value containing the user ID of the user you'd like to remove all logins from.</p>
+    <h3>Successful Response</h3>
+    <iframe src='../../../request-preview/?value={"status":"success"}'></iframe>
+    <h3>Unsuccessful Responses</h3>
+    <h4>Invalid Account</h4>
+    <iframe src='../../../request-preview/?value={"status":"error","error":"Account does not exist!"}'></iframe>
+  </body>
+</html>

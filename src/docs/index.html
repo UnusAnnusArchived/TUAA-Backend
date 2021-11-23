@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Documentation - The Unus Annus Archive</title>
+    <link rel="icon" href="/favicon.ico" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <div class="tree">
+      <ul id="tree">
+        <code>
+          <li>
+            <span class="caret caret-down">/</span>
+            <ul class="nested active">
+              <li>
+                <span class="caret">roku/</span>
+                <ul class="nested">
+                  <li>
+                    <span class="caret">v1/</span>
+                    <ul class="nested">
+                      <li class="nocaret" onclick="changePage('/roku/v1/feed')">feed</li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <span class="caret">swift/</span>
+                <ul class="nested">
+                  <li>
+                    <span class="caret">v1/</span>
+                    <ul class="nested">
+                      <li class="nocaret" onclick="changePage('/swift/v1/getallmetadata')">getallmetadata</li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <span class="caret">v1/</span>
+                <ul class="nested">
+                  <li class="nocaret" onclick="changePage('/v1/getallmetadata')">getallmetadata</li>
+                  <li class="nocaret" onclick="changePage('/v1/gets00metadata')">gets00metadata</li>
+                  <li class="nocaret" onclick="changePage('/v1/gets01metadata')">gets01metadata</li>
+                  <li class="nocaret" onclick="changePage('/v1/getvideodata')">getvideodata/</li>
+                  <li class="nocaret" onclick="changePage('/v1/getvidpreviews')">getvidpreviews/</li>
+                </ul>
+              </li>
+              <li>
+                <span class="caret">v2/</span>
+                <ul class="nested">
+                  <li>
+                    <span class="caret">account/</span>
+                    <ul class="nested">
+                      <li class="nocaret" onclick="changePage('/v2/account/changepfp')">changepfp</li>
+                      <li class="nocaret" onclick="changePage('/v2/account/checkloginkey')">checkloginkey</li>
+                      <li class="nocaret" onclick="changePage('/v2/account/login')">login</li>
+                      <li class="nocaret" onclick="changePage('/v2/account/logout')">logout</li>
+                      <li class="nocaret" onclick="changePage('/v2/account/logoutall')">logoutall</li>
+                      <li class="nocaret" onclick="changePage('/v2/account/signup')">signup</li>
+                    </ul>
+                  </li>
+                  <li>
+                    <span class="caret">comments/</span>
+                    <ul class="nested">
+                      <li class="nocaret" onclick="changePage('/v2/comments/get')">get</li>
+                      <li class="nocaret" onclick="changePage('/v2/comments/post')">post</li>
+                    </ul>
+                  </li>
+                  <li>
+                    <span class="caret">metadata/</span>
+                    <ul class="nested">
+                      <li>
+                        <span class="caret">video/</span>
+                        <ul class="nested">
+                          <li>
+                            <span class="caret">season/</span>
+                            <ul class="nested">
+                              <li class="nocaret" onclick="changePage('/v2/metadata/video/season/s00')">s00</li>
+                              <li class="nocaret" onclick="changePage('/v2/metadata/video/season/s01')">s01</li>
+                            </ul>
+                          </li>
+                          <li class="nocaret" onclick="changePage('/v2/metadata/video/all')">all</li>
+                          <li class="nocaret" onclick="changePage('/v2/metadata/video/episode')">episode/</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nocaret" onclick="changePage('/v2/preview')">preview/</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </code>
+      </ul>
+    </div>
+    <div class="container">
+      <iframe src="pages/home.html" id="iframe"></iframe>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="/js/@global/debug-info.js" type="module"></script>
+  </body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="../../../css/main.css" />
+  </head>
+  <body>
+    <h1><code>/v2/comments/post/&lt;video&gt;</code></h1>
+    <p>This endpoint accepts a <code>POST</code> request with the <code>application/json</code> encoding type.</p>
+    <p>It accepts a <code>loginKey</code> and a <code>comment</code> (a plaintext string of the comment's text)</p>
+    <p>An example request url would be <code>/v2/comments/post/s01.e001</code></p>
+    <h3>Example Request Body</h3>
+    <iframe src='../../../request-preview/?value={"loginKey": "abcdefghijklmnop","comment":"Welcome to the comment section!"}'></iframe>
+    <h3>Sample Successful Response</h3>
+    <iframe src='../../../request-preview/?value={"status":"success","comment":{"episode":"s01.e001","uid":"2188ae130943750a4b70a5c9168ea759","comment":{"plaintext":"Welcome to the comment section!","html": "<p>Welcome to the comment section!</p>\n"},"stats":{"published":1625000400000,"likes":0,"dislikes":0},"user":{"id":"2188ae130943750a4b70a5c9168ea759","username":"TheUnusAnnusArchive","pfp":{"originalFilename":"JPG.jpg","filename":"/userdata/profilepics/2188ae130943750a4b70a5c9168ea759.jpg","width":256,"height":256,"format":"image/jpeg"}}}}'></iframe>
+    <h3>Unsuccessful Responses</h3>
+    <h4>Invalid message length!</h4>
+    <iframe src='../../../request-preview/?value={"error":{"code":3,"message":"Invalid message length!"}}'></iframe>
+    <h4>Unauthorized!</h4>
+    <iframe src='../../../request-preview/?value={"error":{"code":"401","message":"Unauthorized!"}}'></iframe>
+  </body>
+</html>
