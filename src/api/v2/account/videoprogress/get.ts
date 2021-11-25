@@ -5,7 +5,7 @@ import User from '../../../../../ts/types/user'
 export default function getVideoProgress(app:Application) {
   app.use('/v2/acount/videoprogress', express.json())
 
-  app.get('/v2/account/videoprogress', (req, res) => {
+  app.post('/v2/account/videoprogress', (req, res) => {
     const { uid, loginKey, uaid } = req.body
     const users = fs.readdirSync('src/db/users')
 
@@ -21,12 +21,13 @@ export default function getVideoProgress(app:Application) {
 
     if (loginIsValid) {
       try {
-
+        const videoProgress = JSON.parse(fs.readFileSync(`src/db/uservideoprogress/${uid}/${uaid}.json`, 'utf-8'))
+        res.send(videoProgress)
       } catch {
         res.send({uaid,progress:0})
       }
     } else {
-      res.status(401).send({error:401})
+      res.status(401).send({error:{code:401,message:'Unauthorized'}})
     }
   })
 }
