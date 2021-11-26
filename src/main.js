@@ -63,6 +63,23 @@ var fs_1 = __importDefault(require("fs"));
 var handleErrors_1 = require("./handleErrors");
 var cors_1 = __importDefault(require("cors"));
 var app = (0, express_1.default)();
+//Make sure all the required directories exist
+if (!fs_1.default.existsSync('src/db')) {
+    fs_1.default.mkdirSync('src/db');
+}
+if (!fs_1.default.existsSync('src/db/users')) {
+    fs_1.default.mkdirSync('src/db/users');
+}
+if (!fs_1.default.existsSync('src/db/userdata')) {
+    fs_1.default.mkdirSync('src/db/userdata');
+}
+if (!fs_1.default.existsSync('src/db/userdata/profilepics')) {
+    fs_1.default.mkdirSync('src/db/userdata/profilepics');
+}
+if (!fs_1.default.existsSync('src/db/uservideoprogress')) {
+    fs_1.default.mkdirSync('src/db/uservideoprogress');
+}
+;
 (function () { return __awaiter(void 0, void 0, void 0, function () {
     function apiDir(dir) {
         return __awaiter(this, void 0, void 0, function () {

@@ -5,6 +5,23 @@ import cors from 'cors'
 
 const app = express()
 
+//Make sure all the required directories exist
+if (!fs.existsSync('src/db')) {
+  fs.mkdirSync('src/db')
+}
+if (!fs.existsSync('src/db/users')) {
+  fs.mkdirSync('src/db/users')
+}
+if (!fs.existsSync('src/db/userdata')) {
+  fs.mkdirSync('src/db/userdata')
+}
+if (!fs.existsSync('src/db/userdata/profilepics')) {
+  fs.mkdirSync('src/db/userdata/profilepics')
+}
+if (!fs.existsSync('src/db/uservideoprogress')) {
+  fs.mkdirSync('src/db/uservideoprogress')
+}
+
 ;(async() => {
   app.use('/node_modules', express.static('node_modules'))
 
