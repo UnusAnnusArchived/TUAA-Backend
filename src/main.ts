@@ -2,6 +2,7 @@ import express from 'express'
 import fs from 'fs'
 import { handle404, handle500 } from './handleErrors'
 import cors from 'cors'
+import { resolve } from 'path';
 
 const app = express()
 
@@ -22,17 +23,17 @@ if (!fs.existsSync('src/db/uservideoprogress')) {
   fs.mkdirSync('src/db/uservideoprogress')
 }
 
+app.use('/node_modules', express.static('node_modules'))
+
+app.get('/docs/tsconfig.json', handle404)
+
+app.use('/docs', express.static('src/docs'))
+
+app.all('*', cors())
+
+app.use('/userdata', express.static('src/db/userdata'))
+
 ;(async() => {
-  app.use('/node_modules', express.static('node_modules'))
-
-  app.get('/docs/tsconfig.json', handle404)
-
-  app.use('/docs', express.static('src/docs'))
-
-  app.all('*', cors())
-
-  app.use('/userdata', express.static('src/db/userdata'))
-
   await apiDir('api')
   async function apiDir(dir:string):Promise<void> {
     const api = fs.readdirSync(`src/${dir}`)
@@ -47,7 +48,7 @@ if (!fs.existsSync('src/db/uservideoprogress')) {
       }
     }
   }
-
+})().then(() => {
   app.all('*', handle404)
 
   app.all('*', handle500)
@@ -55,4 +56,6 @@ if (!fs.existsSync('src/db/uservideoprogress')) {
   app.listen(parseInt(process.env.PORT) || 1024, () => {
     console.log('Server Started')
   })
-})()
+}).catch((err) => {
+  throw err
+})
