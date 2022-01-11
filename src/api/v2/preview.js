@@ -38,6 +38,9 @@ function getvidpreviews(app) {
                                     }
                                 }
                                 res.send(vttText);
+                            }).catch(function (err) {
+                                var _a, _b;
+                                res.status(500).send({ error: { code: 500, message: 'A server side error has occurred!', err: (_a = err.stack) !== null && _a !== void 0 ? _a : (_b = err.toString) === null || _b === void 0 ? void 0 : _b.call(err) } });
                             });
                         }
                         else {
@@ -62,6 +65,9 @@ function getvidpreviews(app) {
                         res.send(vttText);
                     }
                 });
+            }).catch(function (err) {
+                var _a, _b;
+                res.status(500).send({ error: { code: 500, message: 'A server side error has occurred!', err: (_a = err.stack) !== null && _a !== void 0 ? _a : (_b = err.toString) === null || _b === void 0 ? void 0 : _b.call(err) } });
             });
         }
         else {

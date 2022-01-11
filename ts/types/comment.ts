@@ -1,6 +1,7 @@
 import { UserProfilePicture } from './user'
 
 export interface StoredComment {
+  id?: string,
   episode: string,
   uid: string,
   user?: CommentUser,
@@ -9,6 +10,7 @@ export interface StoredComment {
 }
 
 export default interface Comment {
+  id?: string,
   episode: string,
   user: CommentUser,
   comment: CommentText,

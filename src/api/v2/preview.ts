@@ -38,6 +38,8 @@ export default function getvidpreviews(app:Application) {
                   }
                 }
                 res.send(vttText)
+              }).catch((err) => {
+                res.status(500).send({error:{code:500,message:'A server side error has occurred!',err:err.stack ?? err.toString?.()}})
               })
             } else {
               res.send('WEBVTT\n\n')
@@ -60,6 +62,8 @@ export default function getvidpreviews(app:Application) {
             res.send(vttText)
           }
         })
+      }).catch((err) => {
+        res.status(500).send({error:{code:500,message:'A server side error has occurred!',err:err.stack ?? err.toString?.()}})
       })
     } else {
       return next()

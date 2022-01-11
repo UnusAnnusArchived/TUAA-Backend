@@ -5,7 +5,8 @@ export default interface User {
   hash: string,
   salt: string,
   pfp: UserProfilePicture,
-  loginKeys: string[]
+  loginKeys: string[],
+  isAdmin?: boolean
 }
 
 export interface UserProfilePicture {
@@ -21,4 +22,5 @@ export interface LimitedUser {
   email: string,
   username: string,
   pfp: UserProfilePicture
+  isAdmin?: boolean
 }
